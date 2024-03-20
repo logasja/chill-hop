@@ -1,0 +1,28 @@
+{
+  "name": "chill-hop",
+  "version": "1.0.0",
+  "description": "Wallpapers that showcase [Lively Hardware API features.](https://github.com/rocksdanister/lively/wiki/Web-Guide-V-:-System-Data)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:serve": "webpack serve --mode=development",
+    "dev:build": "webpack --mode=development",
+    "build": "webpack",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^6.10.0",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "husky": "^9.0.11",
+    "mini-css-extract-plugin": "^2.8.1",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "AppVersion": "2.0.7.4",
+  "Title": "Chillhop",
+  "Desc": "In 2020, during the lockdown, the amazing folks at Chillhop Music entrusted me the visuals for their 2021 anual compilation called Chillhop Essentials, a 4-album set based on each season of the year, all merged with a story stared by their Chillhop Raccoon who has found an isolated getaway for a relaxing retreat at home, a place to cultivate creativity and to step away from the stressors and worries of the outside world. Along with the albums and and an animated youtube video, they also released limited edition double vinyls, exclusive playing cards, prints, and more.",
+  "Author": "Jorge Artola",
+  "License": "See license.txt",
+  "Contact": "https://github.com/logasja/chill-hop",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": "--audio --system-nowplaying --system-information",
+  "IsAbsolutePath": false
+}

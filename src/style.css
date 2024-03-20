@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	/*background-color: #000;*/
+	background-image: radial-gradient(white, #4d4d4d);
+	color: #fff;
+	font-family: Monospace;
+	font-size: 13px;
+	line-height: 24px;
+	overscroll-behavior: none;
+	overflow: hidden;
+}
+
+body#body {
+	overflow: hidden;
+	height:100vh;
+}
+
+body.bg {
+	/* Full height */
+	height: 100vh;
+}
+
+body.bg-default {
+		/* The image used */
+		background: url("./assets/reading.webp"), #ed927d;
+			/* Center and scale the image nicely */
+		background-position: center, center;
+		background-repeat: no-repeat, repeat;
+		background-size: auto auto, cover;
+}
+
+body.bg-music {
+	/* The image used */
+	background: url("./assets/music.webp"), #f9dfab;
+	/* Center and scale the image nicely */
+	background-position: center, center;
+	background-repeat: no-repeat, repeat;
+	background-size: auto auto, cover;
+}
+
+body.bg-music div#np-container {
+	opacity: 1;
+	visibility: visible;
+	transition:
+		opacity 1s;
+}
+
+div#np-container {
+	visibility: collapse;
+	opacity: 0;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	align-items:flex-start;
+	margin-top: min(5%, 50px);
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 50px;
+	max-width: 2160px;
+	gap: 30px;
+}
+
+#np-container img {
+	max-width: 175px;
+	min-width: 100px;
+	width: 15%;
+	box-shadow:10px 5px 5px #fcb48d;
+}
+
+div#np-container div#np-details {
+	display:flex;
+	flex-flow:column;
+	width:30%;
+	max-width:500px;
+	min-width:300px;
+}
+
+h1#np-title {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: lighter;
+	font-kerning: auto;
+	color:#111d29;
+	text-shadow: 10px 5px 5px #fcb48d;
+}
