@@ -1,44 +1,24 @@
+:root {
+	--background-color: #FFFF;
+	--background-image: None;
+}
+
 body {
 	margin: 0;
-	/*background-color: #000;*/
-	background-image: radial-gradient(white, #4d4d4d);
-	color: #fff;
-	font-family: Monospace;
 	font-size: 13px;
 	line-height: 24px;
 	overscroll-behavior: none;
 	overflow: hidden;
-}
-
-body#body {
-	overflow: hidden;
-	height:100vh;
-}
-
-body.bg {
-	/* Full height */
-	height: 100vh;
-}
-
-body.bg-default {
-		/* The image used */
-		background: url("./assets/reading.webp"), #ed927d;
-			/* Center and scale the image nicely */
-		background-position: center, center;
-		background-repeat: no-repeat, repeat;
-		background-size: auto auto, cover;
-}
-
-body.bg-music {
 	/* The image used */
-	background: url("./assets/music.webp"), #f9dfab;
+	background: var(--background-image), var(--background-color);
 	/* Center and scale the image nicely */
 	background-position: center, center;
 	background-repeat: no-repeat, repeat;
 	background-size: auto auto, cover;
+	height:100vh;
 }
 
-body.bg-music div#np-container {
+div#np-container.playing-now {
 	opacity: 1;
 	visibility: visible;
 	transition:

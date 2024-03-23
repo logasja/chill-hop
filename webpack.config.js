@@ -1,5 +1,6 @@
 const CopyPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
@@ -21,7 +22,7 @@ module.exports = {
           context: "src/"
         },
       ]
-    })
+    }),
   ],
   module: {
     rules: [
@@ -47,5 +48,6 @@ module.exports = {
     // path: path.resolve(__dirname, 'dist'),
     path: path.resolve('/mnt/c/Users/logas/AppData/Local/Lively\ Wallpaper/Library/wallpapers', 'chillhop'),
     clean: true,
+    libraryTarget: 'window'
   },
 }
